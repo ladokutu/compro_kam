@@ -3,7 +3,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import './index.css';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -30,11 +30,10 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("KAM | Enterprise - Web and Mobile Applications");
 
   return (
-    <>
-      <Router>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -42,8 +41,7 @@ function App() {
             <Route path="/get-demo" element={<DemoProduct />} /> 
           </Routes>
         </ScrollToTop>
-      </Router>
-    </>
+      </BrowserRouter>
   );
 }
 
