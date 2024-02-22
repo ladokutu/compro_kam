@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/compro_kam/static/css/main.be0b77ab.css",
-    "main.js": "/compro_kam/static/js/main.eaf4131a.js",
+    "main.js": "/compro_kam/static/js/main.44fd02aa.js",
     "static/media/consultation.svg": "/compro_kam/static/media/consultation.ede9466b3634733f30c8d1a1b7bbe939.svg",
     "static/media/web-dev.svg": "/compro_kam/static/media/web-dev.fd61237124f5b922e412437caf61ea58.svg",
     "static/media/hosting.svg": "/compro_kam/static/media/hosting.b755d3eebb287dde8fcd287cb1d5653e.svg",
@@ -13,10 +13,10 @@
     "index.html": "/compro_kam/index.html",
     "static/media/hero-bg.svg": "/compro_kam/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
     "main.be0b77ab.css.map": "/compro_kam/static/css/main.be0b77ab.css.map",
-    "main.eaf4131a.js.map": "/compro_kam/static/js/main.eaf4131a.js.map"
+    "main.44fd02aa.js.map": "/compro_kam/static/js/main.44fd02aa.js.map"
   },
   "entrypoints": [
     "static/css/main.be0b77ab.css",
-    "static/js/main.eaf4131a.js"
+    "static/js/main.44fd02aa.js"
   ]
 }
