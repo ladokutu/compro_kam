@@ -14,12 +14,12 @@ const Footer = () => {
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">MLD</h3>
+                            <h3 className="font-bold text-4xl mb-4">KAM</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Molad e Konsult</h5>
-                                <p>Ilo Awela,</p>
-                                <p>Ota,</p>
-                                <p>Ogun State.</p>
+                                <h5>PT. Katiga Aliff Mikhafasa</h5>
+                                <p>Villa Kencana Cikarang Blok P10 No. 18, Karang Bahagia</p>
+                                <p>Kabupaten Bekasi 17530</p>
+                                <p>Indonesia</p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Footer = () => {
                         to="#"
                         className=" hover:text-gray-900"
                     >
-                        Molad e Konsult
+                        KAM Enterprise
                     </HashLink>. All rights reserved.
                     </div>
                 </div>
