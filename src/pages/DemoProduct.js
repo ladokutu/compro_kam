@@ -8,7 +8,7 @@ import Notiflix from 'notiflix';
 
 const DemoProduct = (props) => {
 
-    useDocTitle('MLD | Molad e Konsult - Demo our products')
+    useDocTitle('KAM | Eterprise - Demo Our Products')
 
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
@@ -128,40 +128,11 @@ const DemoProduct = (props) => {
                                     aria-describedby="checkbox-1" 
                                     type="checkbox" 
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
-                                    value="business_management_system" onChange={handleChange}
+                                    value="hse_digital" onChange={handleChange}
                                  />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Business Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">TOSH : HSE Digital</label>
                             </div>
-                            <div className="flex items-center my-4">
-                                <input 
-                                    id="checkbox-1" 
-                                    aria-describedby="checkbox-1" 
-                                    type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
-                                    value="school_management_portal" onChange={handleChange}
-                                    />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">School Management Portal</label>
-                            </div>
-                            <div className="flex items-center my-4">
-                                <input 
-                                    id="checkbox-1" 
-                                    aria-describedby="checkbox-1" 
-                                    type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
-                                    value="payroll_management_system" onChange={handleChange}
-                                />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Payroll Management System</label>
-                            </div>
-                            <div className="flex items-center my-4">
-                                <input 
-                                    id="checkbox-1" 
-                                    aria-describedby="checkbox-1" 
-                                    type="checkbox" 
-                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
-                                    value="event_management_system" onChange={handleChange}
-                                />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Event Management System</label>
-                            </div>
+                            
                             {errors && 
                                 <p className="text-red-500 text-sm">{errors.products}</p>
                             }
@@ -256,7 +227,7 @@ const DemoProduct = (props) => {
                                 </div>
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Office Address</h2>
-                                    <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                    <p className="text-gray-400">Villa Kencana Cikarang Blok P10 No. 18. Karang Bahagia, Kabupaten Bekasi 17530 , Indonesia</p>
                                 </div>
                             </div>
                             
@@ -267,11 +238,11 @@ const DemoProduct = (props) => {
 
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Call Us</h2>
-                                    <p className="text-gray-400">Tel: 08055384406</p>
+                                    <p className="text-gray-400">Phone: +6289617101000</p>
                                 
                                     <div className='mt-5'>
                                         <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@mld.ng</p>
+                                        <p className="text-gray-400"><a href="mailto:support@kam-enterprise.com">support@kam-enterprise.com</a></p>
                                     </div>
                             
                                 </div>
