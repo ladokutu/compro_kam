@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import logo from '../images/logo.png';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
@@ -12,15 +13,23 @@ const Footer = () => {
                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
 
                     {/* 1st block */}
+						
                     <div className="col-span-12 lg:col-span-4">
+						
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">KAM</h3>
+							<div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
+								<img alt="card img" style={{ width: 60, height: 60 }} resizeMode="cover" className="rounded-t float-right duration-1000 w-full" src={logo} />
+							</div>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>PT. Katiga Aliff Mikhafasa</h5>
+								
+							
+                                <h5>PT. Katiga Alif Mikhafasa</h5>
                                 <p>Villa Kencana Cikarang Blok P10 No. 18, Karang Bahagia</p>
                                 <p>Kabupaten Bekasi 17530</p>
                                 <p>Indonesia</p>
                             </div>
+							
+							
                         </div>
                     </div>
 
